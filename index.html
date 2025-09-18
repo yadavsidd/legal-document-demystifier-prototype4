@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legal Document Demystifier</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lexend:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              display: ['Lexend', 'sans-serif'],
+            },
+            colors: {
+              primary: { // Discord "blurple" inspired
+                '50': '#eef0fe',
+                '100': '#e0e3fc',
+                '200': '#c7cbf9',
+                '300': '#a7aff6',
+                '400': '#8990f4',
+                '500': '#5865f2',
+                '600': '#4e5adf',
+                '700': '#424dc8',
+                '800': '#3740a3',
+                '900': '#2e3582',
+                '950': '#1c214d',
+              },
+              // Discord dark theme inspired grays
+              'base': {
+                '50': '#f9fafb',   // light mode
+                '100': '#f3f4f6',  // light mode
+                '200': '#e5e7eb',  // light mode
+                '300': '#d1d5db',  // light mode
+                '400': '#9ca3af',  // light mode
+                '500': '#6b7280',  // light mode
+                '600': '#4b5563',  // light mode
+                '700': '#383a40',  // dark mode - card bg
+                '800': '#313338',  // dark mode - lighter bg
+                '900': '#2b2d31',  // dark mode - main bg
+                '950': '#232428',  // dark mode - darker bg
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.19.0",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.12",
+    "vite": "https://aistudiocdn.com/vite@^7.1.5",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.0.2"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-base-100 dark:bg-base-900 font-sans">
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

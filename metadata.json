@@ -1,0 +1,5 @@
+{
+  "name": "Legal Document Demystifier(protoType-1)",
+  "description": "An AI-powered tool to summarize, explain, and guide you through complex legal documents and forms. Upload a document to get a clear breakdown, ask for guidance on creating new documents, or simplify confusing forms.",
+  "requestFramePermissions": []
+}
