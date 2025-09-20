@@ -86,9 +86,9 @@ Ensure you have [Node.js](https://nodejs.org/) installed.
 
 ## 🧑‍💻 Meet the Team: 404 Raita Not Found
 
-*   *Siddhant*
 *   *Hitesh*
 *   *Linsha*
+*   *Siddhant*
 *   *Rudraksh*
 
 ## ⚖ Disclaimer
